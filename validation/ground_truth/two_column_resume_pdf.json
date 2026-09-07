@@ -1,0 +1,35 @@
+{
+  "fixture": "two_column_resume.pdf",
+  "format": "pdf",
+  "layout": "genuine two-column layout (Experience left, Skills right); no Education section at all",
+  "notes": "Tests multi-column reading order and a document that's entirely missing one of the four sections (Education).",
+  "contact": {
+    "full_name": "Casey Sidebar",
+    "email": "casey.sidebar@example.com",
+    "phone": null,
+    "links": []
+  },
+  "experience": [
+    {
+      "job_title": "Software Engineer",
+      "company": "Example Corp",
+      "start_date": "2019",
+      "end_date": null,
+      "is_current": true
+    },
+    {
+      "job_title": "Junior Engineer",
+      "company": "Fixture Industries Inc.",
+      "start_date": "2017",
+      "end_date": "2019",
+      "is_current": false
+    }
+  ],
+  "education": [],
+  "skills": [
+    { "raw": "Python", "canonical": "Python" },
+    { "raw": "SQL", "canonical": "SQL" },
+    { "raw": "Docker", "canonical": "Docker" },
+    { "raw": "Kubernetes", "canonical": "Kubernetes" }
+  ]
+}

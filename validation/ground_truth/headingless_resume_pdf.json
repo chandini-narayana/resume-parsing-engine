@@ -1,0 +1,35 @@
+{
+  "fixture": "headingless_resume.pdf",
+  "format": "pdf",
+  "layout": "no section headings at all; relies entirely on content-based fallback classification",
+  "notes": "Tests fallback classification: date-range line -> Experience, degree-keyword line -> Education, comma-list -> Skills, and contact-by-content detection with no Contact heading.",
+  "contact": {
+    "full_name": "Riley Headingless",
+    "email": "riley.headingless@example.com",
+    "phone": null,
+    "links": []
+  },
+  "experience": [
+    {
+      "job_title": "Backend Engineer",
+      "company": "Example Corp",
+      "start_date": "2020",
+      "end_date": null,
+      "is_current": true
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science",
+      "institution": "Sample State University",
+      "graduation_date": "2016"
+    }
+  ],
+  "skills": [
+    { "raw": "Python", "canonical": "Python" },
+    { "raw": "SQL", "canonical": "SQL" },
+    { "raw": "Docker", "canonical": "Docker" },
+    { "raw": "Kubernetes", "canonical": "Kubernetes" },
+    { "raw": "Terraform", "canonical": "Terraform" }
+  ]
+}

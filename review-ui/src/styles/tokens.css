@@ -1,0 +1,76 @@
+:root {
+  /* Warm paper surface, not app-chrome gray -- the "document" half of the
+     document-intelligence concept. */
+  --color-bg: #f6f4ee;
+  --color-bg-raised: #fffdf9;
+  --color-bg-sunken: #efebe1;
+
+  --color-ink: #1c1b17;
+  --color-ink-muted: #58554b;
+  /* #6d6a5c, not the lighter #8a8677 this started as -- that one measured
+     3.3:1 against --color-bg, below WCAG AA's 4.5:1 for normal text (see
+     review-ui/README.md's accessibility audit notes). */
+  --color-ink-faint: #6d6a5c;
+
+  --color-border: #ddd7c7;
+  --color-border-strong: #b8b19c;
+
+  --color-accent: #1f3a5f;
+  --color-accent-strong: #16283f;
+  --color-accent-tint: #e7edf4;
+
+  --color-high: #1f6f4a;
+  --color-high-tint: #e5f1ea;
+  /* #7a5d12, darkened from an initial #8a6a15 that measured 4.4:1 on its
+     tint -- just under WCAG AA's 4.5:1. */
+  --color-medium: #7a5d12;
+  --color-medium-tint: #f6efd9;
+  --color-review: #9c3f12;
+  --color-review-tint: #fbe9de;
+  --color-unscored: #605c50;
+  --color-unscored-tint: #eeeade;
+
+  --color-danger: #9c2b23;
+  --color-danger-tint: #fbeae7;
+  --color-success: #1f6f4a;
+  --color-success-tint: #e5f1ea;
+
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono:
+    ui-monospace, "Cascadia Mono", "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+
+  /* Shape scale -- three roles, each used consistently everywhere it
+     appears (not mixed per-component):
+       --radius-evidence : raw, quoted source material (sharp, "as captured")
+       --radius-sm       : controls -- buttons, inputs, small chips
+       --radius-md       : structured containers -- entry cards, dropzone, panels
+     Badges are the one documented exception: full pill (999px), a
+     recognizable status-indicator convention on its own. */
+  --radius-evidence: 2px;
+  --radius-sm: 3px;
+  --radius-md: 6px;
+  --nav-height: 56px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --shadow-panel: 0 1px 2px rgba(28, 27, 23, 0.06);
+  --focus-ring: 0 0 0 2px var(--color-bg), 0 0 0 4px var(--color-accent);
+
+  color-scheme: light;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

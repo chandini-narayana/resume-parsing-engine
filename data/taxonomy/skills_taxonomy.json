@@ -1,0 +1,713 @@
+{
+  "entries": [
+    {
+      "canonical_name": "Python",
+      "category": "Language",
+      "aliases": [
+        "Python 3",
+        "Python3",
+        "Py"
+      ]
+    },
+    {
+      "canonical_name": "JavaScript",
+      "category": "Language",
+      "aliases": [
+        "JS",
+        "Javascript",
+        "ECMAScript"
+      ]
+    },
+    {
+      "canonical_name": "TypeScript",
+      "category": "Language",
+      "aliases": [
+        "TS"
+      ]
+    },
+    {
+      "canonical_name": "Java",
+      "category": "Language",
+      "aliases": []
+    },
+    {
+      "canonical_name": "C++",
+      "category": "Language",
+      "aliases": [
+        "Cpp",
+        "C plus plus"
+      ]
+    },
+    {
+      "canonical_name": "C#",
+      "category": "Language",
+      "aliases": [
+        "C Sharp",
+        "CSharp"
+      ]
+    },
+    {
+      "canonical_name": "Go",
+      "category": "Language",
+      "aliases": [
+        "Golang"
+      ]
+    },
+    {
+      "canonical_name": "Ruby",
+      "category": "Language",
+      "aliases": []
+    },
+    {
+      "canonical_name": "PHP",
+      "category": "Language",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Swift",
+      "category": "Language",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Kotlin",
+      "category": "Language",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Scala",
+      "category": "Language",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Rust",
+      "category": "Language",
+      "aliases": []
+    },
+    {
+      "canonical_name": "R",
+      "category": "Language",
+      "aliases": [
+        "R Language",
+        "R Programming"
+      ]
+    },
+    {
+      "canonical_name": "MATLAB",
+      "category": "Language",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Bash",
+      "category": "Language",
+      "aliases": [
+        "Shell Scripting",
+        "Shell"
+      ]
+    },
+    {
+      "canonical_name": "PowerShell",
+      "category": "Language",
+      "aliases": []
+    },
+    {
+      "canonical_name": "SQL",
+      "category": "Language",
+      "aliases": [
+        "Structured Query Language"
+      ]
+    },
+    {
+      "canonical_name": "HTML",
+      "category": "Language",
+      "aliases": [
+        "HTML5"
+      ]
+    },
+    {
+      "canonical_name": "CSS",
+      "category": "Language",
+      "aliases": [
+        "CSS3"
+      ]
+    },
+    {
+      "canonical_name": "React",
+      "category": "Framework",
+      "aliases": [
+        "React.js",
+        "ReactJS",
+        "React JS"
+      ]
+    },
+    {
+      "canonical_name": "Angular",
+      "category": "Framework",
+      "aliases": [
+        "AngularJS",
+        "Angular JS"
+      ]
+    },
+    {
+      "canonical_name": "Vue.js",
+      "category": "Framework",
+      "aliases": [
+        "Vue",
+        "VueJS",
+        "Vue JS"
+      ]
+    },
+    {
+      "canonical_name": "Node.js",
+      "category": "Framework",
+      "aliases": [
+        "NodeJS",
+        "Node JS",
+        "Node"
+      ]
+    },
+    {
+      "canonical_name": "Express.js",
+      "category": "Framework",
+      "aliases": [
+        "Express",
+        "ExpressJS"
+      ]
+    },
+    {
+      "canonical_name": "Django",
+      "category": "Framework",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Flask",
+      "category": "Framework",
+      "aliases": []
+    },
+    {
+      "canonical_name": "FastAPI",
+      "category": "Framework",
+      "aliases": [
+        "Fast API"
+      ]
+    },
+    {
+      "canonical_name": "Spring Boot",
+      "category": "Framework",
+      "aliases": [
+        "Spring",
+        "SpringBoot"
+      ]
+    },
+    {
+      "canonical_name": ".NET",
+      "category": "Framework",
+      "aliases": [
+        "Dot Net",
+        "DotNet",
+        ".NET Core"
+      ]
+    },
+    {
+      "canonical_name": "Ruby on Rails",
+      "category": "Framework",
+      "aliases": [
+        "Rails"
+      ]
+    },
+    {
+      "canonical_name": "Next.js",
+      "category": "Framework",
+      "aliases": [
+        "NextJS",
+        "Next JS"
+      ]
+    },
+    {
+      "canonical_name": "jQuery",
+      "category": "Framework",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Bootstrap",
+      "category": "Framework",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Tailwind CSS",
+      "category": "Framework",
+      "aliases": [
+        "TailwindCSS",
+        "Tailwind"
+      ]
+    },
+    {
+      "canonical_name": "Scikit-learn",
+      "category": "Framework",
+      "aliases": [
+        "sklearn",
+        "Scikit Learn"
+      ]
+    },
+    {
+      "canonical_name": "TensorFlow",
+      "category": "Framework",
+      "aliases": []
+    },
+    {
+      "canonical_name": "PyTorch",
+      "category": "Framework",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Keras",
+      "category": "Framework",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Pandas",
+      "category": "Framework",
+      "aliases": []
+    },
+    {
+      "canonical_name": "NumPy",
+      "category": "Framework",
+      "aliases": []
+    },
+    {
+      "canonical_name": "LangChain",
+      "category": "Framework",
+      "aliases": []
+    },
+    {
+      "canonical_name": "PostgreSQL",
+      "category": "Database",
+      "aliases": [
+        "Postgres",
+        "Postgre SQL",
+        "PostgresSQL"
+      ]
+    },
+    {
+      "canonical_name": "MySQL",
+      "category": "Database",
+      "aliases": [
+        "My SQL"
+      ]
+    },
+    {
+      "canonical_name": "MongoDB",
+      "category": "Database",
+      "aliases": [
+        "Mongo DB",
+        "Mongo"
+      ]
+    },
+    {
+      "canonical_name": "Redis",
+      "category": "Database",
+      "aliases": []
+    },
+    {
+      "canonical_name": "SQLite",
+      "category": "Database",
+      "aliases": [
+        "SQ Lite"
+      ]
+    },
+    {
+      "canonical_name": "Oracle Database",
+      "category": "Database",
+      "aliases": [
+        "Oracle DB",
+        "Oracle SQL"
+      ]
+    },
+    {
+      "canonical_name": "Microsoft SQL Server",
+      "category": "Database",
+      "aliases": [
+        "MSSQL",
+        "SQL Server",
+        "MS SQL"
+      ]
+    },
+    {
+      "canonical_name": "Cassandra",
+      "category": "Database",
+      "aliases": [
+        "Apache Cassandra"
+      ]
+    },
+    {
+      "canonical_name": "DynamoDB",
+      "category": "Database",
+      "aliases": [
+        "Dynamo DB"
+      ]
+    },
+    {
+      "canonical_name": "Elasticsearch",
+      "category": "Database",
+      "aliases": [
+        "Elastic Search"
+      ]
+    },
+    {
+      "canonical_name": "Snowflake",
+      "category": "Database",
+      "aliases": []
+    },
+    {
+      "canonical_name": "AWS",
+      "category": "Cloud/DevOps",
+      "aliases": [
+        "Amazon Web Services"
+      ]
+    },
+    {
+      "canonical_name": "Azure",
+      "category": "Cloud/DevOps",
+      "aliases": [
+        "Microsoft Azure"
+      ]
+    },
+    {
+      "canonical_name": "GCP",
+      "category": "Cloud/DevOps",
+      "aliases": [
+        "Google Cloud Platform",
+        "Google Cloud"
+      ]
+    },
+    {
+      "canonical_name": "Docker",
+      "category": "Cloud/DevOps",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Kubernetes",
+      "category": "Cloud/DevOps",
+      "aliases": [
+        "K8s"
+      ]
+    },
+    {
+      "canonical_name": "Terraform",
+      "category": "Cloud/DevOps",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Ansible",
+      "category": "Cloud/DevOps",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Jenkins",
+      "category": "Cloud/DevOps",
+      "aliases": []
+    },
+    {
+      "canonical_name": "GitHub Actions",
+      "category": "Cloud/DevOps",
+      "aliases": []
+    },
+    {
+      "canonical_name": "GitLab CI",
+      "category": "Cloud/DevOps",
+      "aliases": [
+        "GitLab CI/CD"
+      ]
+    },
+    {
+      "canonical_name": "CircleCI",
+      "category": "Cloud/DevOps",
+      "aliases": [
+        "Circle CI"
+      ]
+    },
+    {
+      "canonical_name": "CI/CD",
+      "category": "Cloud/DevOps",
+      "aliases": [
+        "Continuous Integration",
+        "Continuous Deployment",
+        "Continuous Delivery"
+      ]
+    },
+    {
+      "canonical_name": "Git",
+      "category": "Cloud/DevOps",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Linux",
+      "category": "Cloud/DevOps",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Nginx",
+      "category": "Cloud/DevOps",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Chef",
+      "category": "Cloud/DevOps",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Puppet",
+      "category": "Cloud/DevOps",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Machine Learning",
+      "category": "Data/ML",
+      "aliases": [
+        "ML"
+      ]
+    },
+    {
+      "canonical_name": "Deep Learning",
+      "category": "Data/ML",
+      "aliases": [
+        "DL"
+      ]
+    },
+    {
+      "canonical_name": "Artificial Intelligence",
+      "category": "Data/ML",
+      "aliases": [
+        "AI"
+      ]
+    },
+    {
+      "canonical_name": "Natural Language Processing",
+      "category": "Data/ML",
+      "aliases": [
+        "NLP"
+      ]
+    },
+    {
+      "canonical_name": "Computer Vision",
+      "category": "Data/ML",
+      "aliases": [
+        "CV"
+      ]
+    },
+    {
+      "canonical_name": "Data Analysis",
+      "category": "Data/ML",
+      "aliases": [
+        "Data Analytics"
+      ]
+    },
+    {
+      "canonical_name": "Data Visualization",
+      "category": "Data/ML",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Apache Spark",
+      "category": "Data/ML",
+      "aliases": [
+        "Spark",
+        "PySpark"
+      ]
+    },
+    {
+      "canonical_name": "Apache Kafka",
+      "category": "Data/ML",
+      "aliases": [
+        "Kafka"
+      ]
+    },
+    {
+      "canonical_name": "Apache Airflow",
+      "category": "Data/ML",
+      "aliases": [
+        "Airflow"
+      ]
+    },
+    {
+      "canonical_name": "Apache Hadoop",
+      "category": "Data/ML",
+      "aliases": [
+        "Hadoop"
+      ]
+    },
+    {
+      "canonical_name": "Tableau",
+      "category": "Data/ML",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Power BI",
+      "category": "Data/ML",
+      "aliases": [
+        "PowerBI"
+      ]
+    },
+    {
+      "canonical_name": "Looker",
+      "category": "Data/ML",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Jira",
+      "category": "Tool",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Confluence",
+      "category": "Tool",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Figma",
+      "category": "Tool",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Adobe Photoshop",
+      "category": "Tool",
+      "aliases": [
+        "Photoshop"
+      ]
+    },
+    {
+      "canonical_name": "Adobe Illustrator",
+      "category": "Tool",
+      "aliases": [
+        "Illustrator"
+      ]
+    },
+    {
+      "canonical_name": "Salesforce",
+      "category": "Tool",
+      "aliases": []
+    },
+    {
+      "canonical_name": "SAP",
+      "category": "Tool",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Microsoft Excel",
+      "category": "Tool",
+      "aliases": [
+        "Excel"
+      ]
+    },
+    {
+      "canonical_name": "Slack",
+      "category": "Tool",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Notion",
+      "category": "Tool",
+      "aliases": []
+    },
+    {
+      "canonical_name": "REST",
+      "category": "Architecture",
+      "aliases": [
+        "RESTful",
+        "REST API",
+        "REST APIs"
+      ]
+    },
+    {
+      "canonical_name": "GraphQL",
+      "category": "Architecture",
+      "aliases": []
+    },
+    {
+      "canonical_name": "gRPC",
+      "category": "Architecture",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Microservices",
+      "category": "Architecture",
+      "aliases": [
+        "Microservice Architecture"
+      ]
+    },
+    {
+      "canonical_name": "SOAP",
+      "category": "Architecture",
+      "aliases": []
+    },
+    {
+      "canonical_name": "WebSockets",
+      "category": "Architecture",
+      "aliases": [
+        "WebSocket"
+      ]
+    },
+    {
+      "canonical_name": "Agile",
+      "category": "Practice",
+      "aliases": [
+        "Agile Methodology"
+      ]
+    },
+    {
+      "canonical_name": "Scrum",
+      "category": "Practice",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Kanban",
+      "category": "Practice",
+      "aliases": []
+    },
+    {
+      "canonical_name": "DevOps",
+      "category": "Practice",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Test-Driven Development",
+      "category": "Practice",
+      "aliases": [
+        "TDD"
+      ]
+    },
+    {
+      "canonical_name": "Object-Oriented Programming",
+      "category": "Practice",
+      "aliases": [
+        "OOP"
+      ]
+    },
+    {
+      "canonical_name": "Pair Programming",
+      "category": "Practice",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Selenium",
+      "category": "Testing",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Pytest",
+      "category": "Testing",
+      "aliases": [
+        "PyTest"
+      ]
+    },
+    {
+      "canonical_name": "JUnit",
+      "category": "Testing",
+      "aliases": []
+    },
+    {
+      "canonical_name": "Cypress",
+      "category": "Testing",
+      "aliases": []
+    }
+  ]
+}

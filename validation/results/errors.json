@@ -1,0 +1,92 @@
+[
+  {
+    "fixture": "table_resume.docx",
+    "field": "skills.raw_mentions",
+    "kind": "false_positive",
+    "expected": null,
+    "predicted": "Skill",
+    "confidence": 0.85,
+    "needs_review": false,
+    "reason": "Known, already-documented limitation (top-level README Limitations): Skills-section table header/rating cells ('Skill', 'Level', 'Expert', 'Advanced', 'Intermediate') are taken at face value as skill candidates. Category: table interpretation / noisy skill candidates."
+  },
+  {
+    "fixture": "table_resume.docx",
+    "field": "skills.raw_mentions",
+    "kind": "false_positive",
+    "expected": null,
+    "predicted": "Level",
+    "confidence": 0.85,
+    "needs_review": false,
+    "reason": "Known, already-documented limitation (top-level README Limitations): Skills-section table header/rating cells ('Skill', 'Level', 'Expert', 'Advanced', 'Intermediate') are taken at face value as skill candidates. Category: table interpretation / noisy skill candidates."
+  },
+  {
+    "fixture": "table_resume.docx",
+    "field": "skills.raw_mentions",
+    "kind": "false_positive",
+    "expected": null,
+    "predicted": "Expert",
+    "confidence": 0.85,
+    "needs_review": false,
+    "reason": "Known, already-documented limitation (top-level README Limitations): Skills-section table header/rating cells ('Skill', 'Level', 'Expert', 'Advanced', 'Intermediate') are taken at face value as skill candidates. Category: table interpretation / noisy skill candidates."
+  },
+  {
+    "fixture": "table_resume.docx",
+    "field": "skills.raw_mentions",
+    "kind": "false_positive",
+    "expected": null,
+    "predicted": "Advanced",
+    "confidence": 0.85,
+    "needs_review": false,
+    "reason": "Known, already-documented limitation (top-level README Limitations): Skills-section table header/rating cells ('Skill', 'Level', 'Expert', 'Advanced', 'Intermediate') are taken at face value as skill candidates. Category: table interpretation / noisy skill candidates."
+  },
+  {
+    "fixture": "table_resume.docx",
+    "field": "skills.raw_mentions",
+    "kind": "false_positive",
+    "expected": null,
+    "predicted": "Intermediate",
+    "confidence": 0.85,
+    "needs_review": false,
+    "reason": "Known, already-documented limitation (top-level README Limitations): Skills-section table header/rating cells ('Skill', 'Level', 'Expert', 'Advanced', 'Intermediate') are taken at face value as skill candidates. Category: table interpretation / noisy skill candidates."
+  },
+  {
+    "fixture": "table_resume.pdf",
+    "field": "contact.full_name",
+    "kind": "false_positive",
+    "expected": null,
+    "predicted": "Skill",
+    "confidence": 0.16,
+    "needs_review": true,
+    "reason": "The table's header cell 'Skill' is the very first block in a document with no preceding heading, so the name-shape heuristic (short, capitalized, no digits) misfires on it. Category: heading detection / table interpretation."
+  },
+  {
+    "fixture": "two_column_resume.pdf",
+    "field": "experience.companies",
+    "kind": "false_positive",
+    "expected": null,
+    "predicted": "Built distributed systems.",
+    "confidence": 0.85,
+    "needs_review": false,
+    "reason": "The ordinary word 'systems' in this description sentence collides with the company-suffix keyword list (_COMPANY_SUFFIXES includes 'systems', for names like 'Acme Systems'), so the whole sentence is misclassified as a confident company match (section_heuristic, exact, not flagged for review). Category: job-title/company heuristics -- keyword-list false positive, not an NLP issue."
+  },
+  {
+    "fixture": "varied_formats_resume.pdf",
+    "field": "education.degrees",
+    "kind": "false_positive",
+    "expected": null,
+    "predicted": "M.S",
+    "confidence": 0.95,
+    "needs_review": false,
+    "reason": "The abbreviated-degree regex (\\bM\\.?S\\.?c?\\.?\\b(?!\\w)) drops the source text's trailing period ('M.S.' -> 'M.S'), so it's recorded as both a false positive ('M.S') and a false negative ('M.S.') by the strict string match. Category: date/degree text-boundary regex quirk, not a wrong degree."
+  },
+  {
+    "fixture": "varied_formats_resume.pdf",
+    "field": "education.degrees",
+    "kind": "false_negative",
+    "expected": "M.S.",
+    "predicted": null,
+    "confidence": null,
+    "needs_review": null,
+    "reason": "The abbreviated-degree regex (\\bM\\.?S\\.?c?\\.?\\b(?!\\w)) drops the source text's trailing period ('M.S.' -> 'M.S'), so it's recorded as both a false positive ('M.S') and a false negative ('M.S.') by the strict string match. Category: date/degree text-boundary regex quirk, not a wrong degree."
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "fixture": "scanned_image.pdf",
+  "format": "pdf",
+  "layout": "a page containing only a raster image, no text layer",
+  "notes": "Difficult/failure case #2: simulates a scanned resume with zero OCR-able text. The correct behavior is an all-empty profile plus an image-only-page warning, never a fabricated value. OCR is explicitly out of scope for this MVP.",
+  "contact": {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "links": []
+  },
+  "experience": [],
+  "education": [],
+  "skills": []
+}

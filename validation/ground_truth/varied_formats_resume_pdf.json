@@ -1,0 +1,44 @@
+{
+  "fixture": "varied_formats_resume.pdf",
+  "format": "pdf",
+  "layout": "single-column; new fixture added for this validation pass",
+  "notes": "Purpose-built to cover dimensions no other fixture exercised: contact links (LinkedIn/GitHub on their own line), \"Title at Company\" phrasing, month-precision date ranges (\"Mon YYYY\" and \"MM/YYYY\"), an abbreviated degree (\"M.S.\"), and skill aliases (Postgres, JS, K8s, React.js, TDD) plus one genuine taxonomy gap (Zephyr RTOS). See scripts/generate_test_fixtures.py's make_varied_formats_resume_pdf for exact source text.",
+  "contact": {
+    "full_name": "Alex Fixture",
+    "email": "alex.fixture@example.com",
+    "phone": "(555) 987-6543",
+    "links": ["linkedin.com/in/alexfixture", "github.com/alexfixture"]
+  },
+  "experience": [
+    {
+      "job_title": "Product Manager",
+      "company": "Northwith Traders Inc.",
+      "start_date": "Jan 2020",
+      "end_date": "Mar 2022",
+      "is_current": false
+    },
+    {
+      "job_title": "Backend Engineer",
+      "company": "Vantage Point Analytics",
+      "start_date": "06/2019",
+      "end_date": "08/2021",
+      "is_current": false
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S.",
+      "institution": "Innovate Institute of Technology",
+      "graduation_date": "2021"
+    }
+  ],
+  "skills": [
+    { "raw": "Postgres", "canonical": "PostgreSQL" },
+    { "raw": "JS", "canonical": "JavaScript" },
+    { "raw": "K8s", "canonical": "Kubernetes" },
+    { "raw": "React.js", "canonical": "React" },
+    { "raw": "TDD", "canonical": "Test-Driven Development" },
+    { "raw": "Zephyr RTOS", "canonical": null },
+    { "raw": "ETL", "canonical": null }
+  ]
+}

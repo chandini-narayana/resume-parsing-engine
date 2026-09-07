@@ -1,0 +1,25 @@
+{
+  "fixture": "table_resume.docx",
+  "format": "docx",
+  "layout": "DOCX table under a Skills heading, plus name/email/education",
+  "notes": "A ruled table (Skill/Level header + 3 data rows) under an explicit Skills heading -- tests whether table cell content is taken at face value the way the Skills section is documented to (including the known header/rating-cell noise limitation).",
+  "contact": {
+    "full_name": "Taylor Fixture",
+    "email": "taylor.fixture@example.com",
+    "phone": null,
+    "links": []
+  },
+  "experience": [],
+  "education": [
+    {
+      "degree": "Master of Science",
+      "institution": "Sample State University",
+      "graduation_date": "2020"
+    }
+  ],
+  "skills": [
+    { "raw": "Python", "canonical": "Python" },
+    { "raw": "SQL", "canonical": "SQL" },
+    { "raw": "Docker", "canonical": "Docker" }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "dataset_size": 10,
+  "fixtures": [
+    "empty_resume.pdf",
+    "headingless_resume.pdf",
+    "normal_resume.docx",
+    "normal_resume.pdf",
+    "scanned_image.pdf",
+    "table_resume.docx",
+    "table_resume.pdf",
+    "two_column_resume.pdf",
+    "unusual_order_resume.pdf",
+    "varied_formats_resume.pdf"
+  ],
+  "per_field": {
+    "contact.email": {
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "contact.full_name": {
+      "tp": 7,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.875,
+      "recall": 1.0,
+      "f1": 0.9333333333333333
+    },
+    "contact.links": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "contact.phone": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "education.dates": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "education.degrees": {
+      "tp": 5,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1": 0.8333333333333334
+    },
+    "education.institutions": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "experience.companies": {
+      "tp": 10,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1": 0.9523809523809523
+    },
+    "experience.dates": {
+      "tp": 15,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "experience.job_titles": {
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "skills.raw_mentions": {
+      "tp": 36,
+      "fp": 5,
+      "fn": 0,
+      "precision": 0.8780487804878049,
+      "recall": 1.0,
+      "f1": 0.9350649350649352
+    }
+  },
+  "per_category": {
+    "contact": {
+      "tp": 19,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.95,
+      "recall": 1.0,
+      "f1": 0.9743589743589743
+    },
+    "experience": {
+      "tp": 35,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.9722222222222222,
+      "recall": 1.0,
+      "f1": 0.9859154929577464
+    },
+    "education": {
+      "tp": 17,
+      "fp": 1,
+      "fn": 1,
+      "precision": 0.9444444444444444,
+      "recall": 0.9444444444444444,
+      "f1": 0.9444444444444444
+    },
+    "skills": {
+      "tp": 36,
+      "fp": 5,
+      "fn": 0,
+      "precision": 0.8780487804878049,
+      "recall": 1.0,
+      "f1": 0.9350649350649352
+    }
+  },
+  "overall_micro": {
+    "tp": 107,
+    "fp": 8,
+    "fn": 1,
+    "precision": 0.9304347826086956,
+    "recall": 0.9907407407407407,
+    "f1": 0.9596412556053812
+  },
+  "overall_macro_f1_across_categories": 0.9599459617065251,
+  "skill_normalization_accuracy": {
+    "correct": 36,
+    "total": 36,
+    "accuracy": 1.0,
+    "scope_note": "Computed only over raw skill mentions that were themselves correctly extracted (true positives) -- normalization of a never-extracted skill isn't a meaningful question."
+  },
+  "confidence_sanity_check": {
+    "sample_size_note": "151 scored field-level data points across 10 fixtures -- small; treat all of the below as directional, not a statistically powered result. This is a heuristic sanity check, not a calibration curve, and confidence values here are NOT probabilities.",
+    "correct_count": 143,
+    "incorrect_count": 8,
+    "mean_confidence_correct": 0.8184615384615385,
+    "mean_confidence_incorrect": 0.77625,
+    "correct_fields_flagged_needs_review": 22,
+    "correct_fields_scored_total": 143,
+    "incorrect_fields_not_flagged_needs_review": 7,
+    "incorrect_fields_scored_total": 8
+  }
+}

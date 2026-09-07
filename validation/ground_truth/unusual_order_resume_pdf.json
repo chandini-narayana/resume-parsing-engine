@@ -1,0 +1,34 @@
+{
+  "fixture": "unusual_order_resume.pdf",
+  "format": "pdf",
+  "layout": "reordered sections (Skills, Experience, Education) under nonstandard heading synonyms",
+  "notes": "Tests heading-synonym recognition (\"Core Competencies\", \"Employment History\", \"Academic History\") and that section order doesn't matter.",
+  "contact": {
+    "full_name": "Morgan Reorder",
+    "email": "morgan.reorder@example.com",
+    "phone": null,
+    "links": []
+  },
+  "experience": [
+    {
+      "job_title": "Platform Engineer",
+      "company": "Fixture Industries Inc.",
+      "start_date": "2020",
+      "end_date": null,
+      "is_current": true
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science",
+      "institution": "Sample State University",
+      "graduation_date": "2016"
+    }
+  ],
+  "skills": [
+    { "raw": "Python", "canonical": "Python" },
+    { "raw": "Go", "canonical": "Go" },
+    { "raw": "SQL", "canonical": "SQL" },
+    { "raw": "Terraform", "canonical": "Terraform" }
+  ]
+}

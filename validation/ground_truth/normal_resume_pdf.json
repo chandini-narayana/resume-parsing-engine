@@ -1,0 +1,42 @@
+{
+  "fixture": "normal_resume.pdf",
+  "format": "pdf",
+  "layout": "standard single-column, conventional headings",
+  "notes": "Baseline case: clean single-column resume with all four sections under conventional headings.",
+  "contact": {
+    "full_name": "Jordan Testcase",
+    "email": "jordan.testcase@example.com",
+    "phone": "(555) 123-4567",
+    "links": []
+  },
+  "experience": [
+    {
+      "job_title": "Senior Software Engineer",
+      "company": "Fixture Industries Inc.",
+      "start_date": "2021",
+      "end_date": null,
+      "is_current": true
+    },
+    {
+      "job_title": "Software Engineer",
+      "company": "Example Corp",
+      "start_date": "2018",
+      "end_date": "2021",
+      "is_current": false
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science",
+      "institution": "Sample State University",
+      "graduation_date": "2018"
+    }
+  ],
+  "skills": [
+    { "raw": "Python", "canonical": "Python" },
+    { "raw": "FastAPI", "canonical": "FastAPI" },
+    { "raw": "SQL", "canonical": "SQL" },
+    { "raw": "Docker", "canonical": "Docker" },
+    { "raw": "Git", "canonical": "Git" }
+  ]
+}

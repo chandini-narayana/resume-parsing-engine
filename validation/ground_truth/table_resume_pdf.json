@@ -1,0 +1,19 @@
+{
+  "fixture": "table_resume.pdf",
+  "format": "pdf",
+  "layout": "bare table, no headings, no name/contact/education content",
+  "notes": "Pure PDF table with no surrounding heading or contact block at all -- tests table cell parsing and content-based fallback classification in isolation, with nothing else to anchor on.",
+  "contact": {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "links": []
+  },
+  "experience": [],
+  "education": [],
+  "skills": [
+    { "raw": "Python", "canonical": "Python" },
+    { "raw": "SQL", "canonical": "SQL" },
+    { "raw": "Docker", "canonical": "Docker" }
+  ]
+}

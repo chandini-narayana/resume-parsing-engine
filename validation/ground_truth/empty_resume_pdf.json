@@ -1,0 +1,15 @@
+{
+  "fixture": "empty_resume.pdf",
+  "format": "pdf",
+  "layout": "single blank page, no text or drawing operations at all",
+  "notes": "Difficult/failure case #1: there is nothing to extract. The correct behavior is an all-empty profile plus a parser warning, never a fabricated value.",
+  "contact": {
+    "full_name": null,
+    "email": null,
+    "phone": null,
+    "links": []
+  },
+  "experience": [],
+  "education": [],
+  "skills": []
+}
